@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guided Tour</string>
+    <string name="commercial">Commercial</string>
+    <string name="single_residential">Single Family Residential</string>
+    <string name="two_family_residential">Two Family Residential</string>
+    <string name="multifamily">Multifamily</string>
+    <string name="planning">Planning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
