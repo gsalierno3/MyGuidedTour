@@ -90,7 +90,7 @@ public class MultifamilyActivity extends AppCompatActivity
 
         if (mapIntent.resolveActivity(getPackageManager()) != null)
         {
-            Toast.makeText(this, "Press the device's back button to get back", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.press_back_button), Toast.LENGTH_LONG).show();
             startActivity(mapIntent);
         }
     }

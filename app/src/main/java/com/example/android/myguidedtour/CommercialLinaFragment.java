@@ -107,7 +107,7 @@ public class CommercialLinaFragment extends Fragment
 
         if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null)
         {
-            Toast.makeText(getContext(), "Press the device's back button to get back", Toast.LENGTH_LONG).show();
+            Toast.makeText(getContext(), getString(R.string.press_back_button), Toast.LENGTH_LONG).show();
             startActivity(mapIntent);
         }
     }
