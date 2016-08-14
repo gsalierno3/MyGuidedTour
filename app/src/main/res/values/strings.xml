@@ -17,6 +17,12 @@
     <string name = "art_gallery">Art Gallery</string>
     <string name = "commercial_interiors">Commercial Interiors</string>
 
+    <!-- Comercial activity fragment strings-->
+    <string name = "comm1_name">Medical Building</string>
+    <string name = "comm1_text">Art Deco 3,000 square-foot medical office building.  Totowa, NJ</string>
+    <string name = "comm2_name">Retail Building</string>
+    <string name = "comm2_text">Exterior renovation for chain retail store.  At the time it was designed, the client was Lauren by Ralph Lauren.   Flemington, NJ</string>
+
 
 
 </resources>

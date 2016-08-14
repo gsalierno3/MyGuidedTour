@@ -30,9 +30,9 @@ public class CommercialAmatoFragment extends Fragment
 
     /**
      *
-     * @param inflater
-     * @param container
-     * @param savedInstanceState
+     * @param inflater inflater creates a view from an xml file
+     * @param container not sure what this one does
+     * @param savedInstanceState  this remains to be researched
      * @return rootView
      */
     @Override
@@ -44,10 +44,10 @@ public class CommercialAmatoFragment extends Fragment
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Medical Building", R.drawable.amato01,40.901389, -74.215667,
-                "Art Deco 3,000 square-foot medical office building.  Totowa, NJ"));
-        projects.add(new Project("Retail Building", R.drawable.lauren_rl,40.503378, -74.861160,
-                "Exterior renovation for chain retail store.  At the time it was designed, the client was Lauren by Ralph Lauren.   Flemington, NJ"));
+        projects.add(new Project(getString(R.string.comm1_name), R.drawable.amato01,40.901389, -74.215667,
+                getString(R.string.comm1_text)));
+        projects.add(new Project(getString(R.string.comm2_name), R.drawable.lauren_rl,40.503378, -74.861160,
+                getString(R.string.comm2_text)));
 
         // Create a {@link ProjectAdapter whose data source is a list of {@link Project}s.  The
         // adapter knows how to create list items for each item in the list.
