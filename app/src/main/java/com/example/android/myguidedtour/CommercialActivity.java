@@ -18,7 +18,7 @@ public class CommercialActivity extends AppCompatActivity
         ViewPager viewPager = (ViewPager) findViewById(R.id.commercial_viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        CommercialFragmentPageAdapter adapter = new CommercialFragmentPageAdapter(getSupportFragmentManager());
+        CommercialFragmentPageAdapter adapter = new CommercialFragmentPageAdapter(getSupportFragmentManager(), getApplication());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

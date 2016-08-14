@@ -1,5 +1,6 @@
 package com.example.android.myguidedtour;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -12,17 +13,20 @@ public class CommercialFragmentPageAdapter extends FragmentPagerAdapter
 
     private final int NUMBER_OF_FRAGMENTS = 3;
 
-    // Holds titles of tabs for commercial buildings
-    private String[] tabTitles = new String[]{"Medical/Retail Buildings", "Art Gallery", "Commercial Interiors"};
+    private Context context;
+    private String[] tabTitles;
 
     /**
      *Constructor
      * @param fm
      */
-    public CommercialFragmentPageAdapter(FragmentManager fm)
+    public CommercialFragmentPageAdapter(FragmentManager fm, Context c)
     {
         super(fm);
+        context = c.getApplicationContext();
+        tabTitles = new String[]{context.getString(R.string.medical_retail), context.getString(R.string.art_gallery), context.getString(R.string.commercial_interiors)};
     }
+
 
     /**
      * Return the Fragment associated with a specified position.

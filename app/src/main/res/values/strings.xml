@@ -11,4 +11,12 @@
     <string name="title_activity_maps">Map</string>
 
     <string name = "press_back_button">"Press the device back button to get back"</string>
+
+    <!-- headings for tabTitles for commercial buildings-->
+    <string name = "medical_retail">Medical and Retail Buildings</string>
+    <string name = "art_gallery">Art Gallery</string>
+    <string name = "commercial_interiors">Commercial Interiors</string>
+
+
+
 </resources>
