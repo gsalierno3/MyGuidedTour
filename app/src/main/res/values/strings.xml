@@ -55,4 +55,12 @@
     <string name = "architecture">Architecture</string>
     <string name = "interior_design">Interior Design</string>
 
+    <!-- single family interior strings-->
+    <string name = "single_interiors1_name">Living Room</string>
+    <string name = "single_interiors1_text">Interior design for a Living Room creating focus areas of activities.  Upper Saddle River, NJ</string>
+    <string name = "single_interiors2_name">Sitting Area</string>
+    <string name = "single_interiors2_text">Sitting area, part of a Master Suite  Upper Saddle River, NJ</string>
+    <string name = "single_interiors3_name">Foyer</string>
+    <string name = "single_interiors3_text">Foyer design, part of a 30,000 square foot interiors contract. Saddle River, NJ</string>
+
 </resources>

@@ -37,12 +37,12 @@ public class SingleFamilyInteriorFragment extends Fragment
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Living Room", R.drawable.residential_interior_1,
-                "Interior design for a Living Room creating focus areas of activities.  Upper Saddle River, NJ"));
-        projects.add(new Project("Sitting Area", R.drawable.residential_interior_2,
-                "Sitting area, part of a Master Suite  Upper Saddle River, NJ"));
-        projects.add(new Project("Foyer", R.drawable.residential_interior_3,
-                "Foyer design, part of a 30,000 square foot interiors contract. Saddle River, NJ"));
+        projects.add(new Project(getString(R.string.single_interiors1_name), R.drawable.residential_interior_1,
+                getString(R.string.single_interiors1_text)));
+        projects.add(new Project(getString(R.string.single_interiors2_name), R.drawable.residential_interior_2,
+                getString(R.string.single_interiors1_text)));
+        projects.add(new Project(getString(R.string.single_interiors3_name), R.drawable.residential_interior_3,
+                getString(R.string.single_interiors3_text)));
 
         // Create a {@link ProjectAdapter whose data source is a list of {@link Project}s.  The
         // adapter knows how to create list items for each item in the list.
