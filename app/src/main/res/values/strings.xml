@@ -51,6 +51,8 @@
     <string name = "planning2_name">Mixed use development</string>
     <string name = "planning2_text">1,700 residential units, 150,000 commercial space, 1,300 parking spaces. Jersey City, NJ</string>
 
-
+    <!-- headers for tabTitles for single family projects-->
+    <string name = "architecture">Architecture</string>
+    <string name = "interior_design">Interior Design</string>
 
 </resources>

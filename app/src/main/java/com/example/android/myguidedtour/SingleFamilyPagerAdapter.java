@@ -1,5 +1,6 @@
 package com.example.android.myguidedtour;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,15 +11,19 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class SingleFamilyPagerAdapter extends FragmentPagerAdapter
 {
     private final int NUMBER_OF_FRAGMENTS = 2;
-    private String[] tabTitles = new String[]{"Architecture", "Interior Design"};
+    private Context context;
+    private String[] tabTitles;
+
 
     /**
      *
      * @param fm
      */
-    public SingleFamilyPagerAdapter(FragmentManager fm)
+    public SingleFamilyPagerAdapter(FragmentManager fm, Context c)
     {
         super(fm);
+        context = c.getApplicationContext();;
+        tabTitles = new String[]{context.getString(R.string.architecture), context.getString(R.string.interior_design)};
     }
 
     /**

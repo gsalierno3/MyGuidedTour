@@ -17,7 +17,7 @@ public class SingleFamilyActivity extends AppCompatActivity
         ViewPager viewPager = (ViewPager) findViewById(R.id.single_family_viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        SingleFamilyPagerAdapter adapter = new SingleFamilyPagerAdapter(getSupportFragmentManager());
+        SingleFamilyPagerAdapter adapter = new SingleFamilyPagerAdapter(getSupportFragmentManager(), getApplication());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

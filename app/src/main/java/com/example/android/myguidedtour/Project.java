@@ -47,7 +47,7 @@ public class Project
 
     /**
      *
-     * @return
+     * @return nName
      */
     public String getName()
     {
@@ -56,7 +56,7 @@ public class Project
 
     /**
      *
-     * @return
+     * @return nImageResourceID
      */
     public int getImageResourceID()
     {
@@ -65,7 +65,7 @@ public class Project
 
     /**
      *
-     * @return
+     * @return nText
      */
     public String getText()
     {
@@ -74,28 +74,17 @@ public class Project
 
     /**
      *
-     * @return
+     * @return nGeoString
      */
     public String getGeoString()
     {
         return nGeoString;
     }
 
-    public boolean hasImage()
-    {
-        return nImageResourceID != NO_IMAGE_PROVIDED;
-    }
-
-    public double getLatitude()
-    {
-        return nLatitude;
-    }
-
-    public double getLongitude()
-    {
-        return nLongitude;
-    }
-
+    /**
+     *
+     * @return boolean
+     */
     public boolean hasLocation()
     {
          if (nGeoString.equals(""))return false;
