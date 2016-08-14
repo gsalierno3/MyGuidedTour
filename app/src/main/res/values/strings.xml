@@ -35,5 +35,15 @@
     <string name = "art2_name">Lena DiGangi Gallery</string>
     <string name = "art2_text">Original concept</string>
 
+    <!-- MultifamilyActivity strings-->
+    <string name = "residential1_name">Residential building</string>
+    <string name = "residential1_text">21 unit residential complex of two-story dwelling units.  Pompton Lakes, NJ</string>
+    <string name = "residential2_name">90 unit building</string>
+    <string name = "residential2_text">Four story residential over covered parking. Rahway, NJ</string>
+    <string name = "residential3_name">Multifamily study</string>
+    <string name = "residential3_text">Multifamily building study on a triangular lot.  Rutherford, NJ</string>
+    <string name = "residential4_name">Townhouses</string>
+    <string name = "residential4_text">Two-unit townhouse building on a complex with 35 dwelling units. Wallington, NJ</string>
+
 
 </resources>
