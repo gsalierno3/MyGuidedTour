@@ -22,10 +22,10 @@ public class TwoFamilyActivity extends AppCompatActivity
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Traditional two family", R.drawable.twofam_1,
-                "Speculative two family project in a narrow lot (25' x 100').  Paterson, NJ"));
-        projects.add(new Project("Retail Building", R.drawable.twofam_2,
-                "Douplex two-family project in Fassaic, NJ"));
+        projects.add(new Project(getString(R.string.two_family1_name), R.drawable.twofam_1,
+                getString(R.string.two_family1_text)));
+        projects.add(new Project(getString(R.string.two_family2_name), R.drawable.twofam_2,
+                getString(R.string.two_family2_text)));
 
         ProjectAdapter adapter = new ProjectAdapter(this, projects);
 

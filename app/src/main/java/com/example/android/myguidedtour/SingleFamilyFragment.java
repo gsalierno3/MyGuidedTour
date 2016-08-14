@@ -37,12 +37,12 @@ public class SingleFamilyFragment extends Fragment
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("French Chateau", R.drawable.single_rubino, 41.057899, -74.083333,
-                "9,500 square feet French Chateau with 5 bedrooms, 8 bathrooms, 18 rooms.  UpperSaddle River, NJ"));
-        projects.add(new Project("Single Family Colonial", R.drawable.single_franklin, 41.025450, -74.215208,
-                "6,000 square foot single family with 6 bedrooms, 5 bathrooms.  Franklin Lakes, NJ"));
-        projects.add(new Project("Second floor addition", R.drawable.single_dechelis, 40.925471, -74.241885,
-                "Addition to a single family residence, Wayne, NJ"));
+        projects.add(new Project(getString(R.string.single1_name), R.drawable.single_rubino, 41.057899, -74.083333,
+                getString(R.string.single1_text)));
+        projects.add(new Project(getString(R.string.single2_name), R.drawable.single_franklin, 41.025450, -74.215208,
+                getString(R.string.single2_text)));
+        projects.add(new Project(getString(R.string.single3_name), R.drawable.single_dechelis, 40.925471, -74.241885,
+                getString(R.string.single3_text)));
 
         // Create a {@link ProjectAdapter whose data source is a list of {@link Project}s.  The
         // adapter knows how to create list items for each item in the list.
