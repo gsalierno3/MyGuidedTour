@@ -37,10 +37,10 @@ public class CommercialLinaFragment extends Fragment
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Lena DiGangi Gallery", R.drawable.art_lina2,40.904273, -74.211330,
-                "First Floor renovation and Second floor addition of seminar space.  Totowa, NJ"));
-        projects.add(new Project("Lena DiGangi Gallery", R.drawable.art_lina1,
-                "Original concept"));
+        projects.add(new Project(getString(R.string.art1_name), R.drawable.art_lina2,40.904273, -74.211330,
+                getString(R.string.art1_text)));
+        projects.add(new Project(getString(R.string.art2_name), R.drawable.art_lina1,
+                getString(R.string.art2_text)));
 
         // Create a {@link ProjectAdapter whose data source is a list of {@link Project}s.  The
         // adapter knows how to create list items for each item in the list.

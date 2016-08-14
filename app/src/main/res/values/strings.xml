@@ -29,5 +29,11 @@
     <string name = "commercial_interior2_name">Corporate Interior</string>
     <string name = "commercial_interior2_text">Conference room for a real estate development company</string>
 
+    <!-- CommercialLinaFragment (art gallery)-->
+    <string name = "art1_name">Lena DiGangi Gallery</string>
+    <string name = "art1_text">First Floor renovation and Second floor addition of seminar space.  Totowa, NJ</string>
+    <string name = "art2_name">Lena DiGangi Gallery</string>
+    <string name = "art2_text">Original concept</string>
+
 
 </resources>
