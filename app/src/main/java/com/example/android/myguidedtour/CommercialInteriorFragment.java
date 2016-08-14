@@ -37,10 +37,10 @@ public class CommercialInteriorFragment extends Fragment
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Corporate Interior", R.drawable.corporate_interior_1,
-                "Reception and lobby for a law office"));
-        projects.add(new Project("Corporate Interior", R.drawable.corporate_interior_2,
-                "Conference room for a real estate development company"));
+        projects.add(new Project(getString(R.string.commercial_interior1_name), R.drawable.corporate_interior_1,
+                getString(R.string.commercial_interior1_text)));
+        projects.add(new Project(getString(R.string.commercial_interior2_name), R.drawable.corporate_interior_2,
+                getString(R.string.commercial_interior2_text)));
 
         // Create a {@link ProjectAdapter whose data source is a list of {@link Project}s.  The
         // adapter knows how to create list items for each item in the list.

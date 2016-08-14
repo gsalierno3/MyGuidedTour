@@ -23,6 +23,11 @@
     <string name = "comm2_name">Retail Building</string>
     <string name = "comm2_text">Exterior renovation for chain retail store.  At the time it was designed, the client was Lauren by Ralph Lauren.   Flemington, NJ</string>
 
+    <!-- CommercialInteriorFragment strings-->
+    <string name = "commercial_interior1_name">Corporate Interior</string>
+    <string name = "commercial_interior1_text">Reception and lobby for a law office</string>
+    <string name = "commercial_interior2_name">Corporate Interior</string>
+    <string name = "commercial_interior2_text">Conference room for a real estate development company</string>
 
 
 </resources>
