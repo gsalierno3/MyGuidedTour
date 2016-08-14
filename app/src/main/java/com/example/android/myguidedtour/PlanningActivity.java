@@ -17,10 +17,10 @@ public class PlanningActivity extends AppCompatActivity
 
         //create list of projects
         final ArrayList<Project> projects = new ArrayList<Project>();
-        projects.add(new Project("Town house Development", R.drawable.plan_garfield,
-                "80 unit Victorian townhouse development.  Garfield, NJ"));
-        projects.add(new Project("Mixed use development", R.drawable.plan_hamlet,
-                "1,700 residential units, 150,000 commercial space, 1,300 parking spaces. Jersey City, NJ"));
+        projects.add(new Project(getString(R.string.planning1_name), R.drawable.plan_garfield,
+                getString(R.string.planning1_text)));
+        projects.add(new Project(getString(R.string.planning2_name), R.drawable.plan_hamlet,
+                getString(R.string.planning2_text)));
 
         ProjectAdapter adapter = new ProjectAdapter(this, projects);
 

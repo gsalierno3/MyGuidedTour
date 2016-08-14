@@ -45,5 +45,12 @@
     <string name = "residential4_name">Townhouses</string>
     <string name = "residential4_text">Two-unit townhouse building on a complex with 35 dwelling units. Wallington, NJ</string>
 
+    <!-- PlanningActivity strings-->
+    <string name = "planning1_name">Town house Development</string>
+    <string name = "planning1_text">80 unit Victorian townhouse development.  Garfield, NJ</string>
+    <string name = "planning2_name">Mixed use development</string>
+    <string name = "planning2_text">1,700 residential units, 150,000 commercial space, 1,300 parking spaces. Jersey City, NJ</string>
+
+
 
 </resources>
